@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "955004799369",
+    "firebase_url": "https://dawai-eb0d2.firebaseio.com",
+    "project_id": "dawai-eb0d2",
+    "storage_bucket": "dawai-eb0d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955004799369:android:9c8d1219158e1d71",
+        "android_client_info": {
+          "package_name": "com.sci.dawai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955004799369-a6q3ro6vf92200hpv5t5uordo90uqv82.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sci.dawai",
+            "certificate_hash": "9db4933b4c532a7341eefedfab1fbd560067feac"
+          }
+        },
+        {
+          "client_id": "955004799369-tho5kjk2oualrmiou0a6gsi0p6ikee8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNyUeDkXWPLDvkTEWZs5PZB-IcPUfNkVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955004799369-tho5kjk2oualrmiou0a6gsi0p6ikee8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
