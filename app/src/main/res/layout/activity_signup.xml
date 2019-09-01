@@ -73,33 +73,46 @@
         app:layout_constraintTop_toBottomOf="@+id/emailEt"
         app:layout_constraintVertical_bias="0.025" />
 
-    <RadioButton
-        android:id="@+id/radioButton_user"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="8dp"
-        android:text="I am User"
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="331dp"
+        android:layout_height="72dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phoneSignEt"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintVertical_bias="0.04000002">
 
-    <RadioButton
-        android:id="@+id/radioButton_owner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:layout_marginBottom="8dp"
-        android:text="I am Pharm"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton_user"
-        app:layout_constraintVertical_bias="0.0" />
+        <RadioButton
+            android:id="@+id/radioButton_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:text="I am User"
+            android:checked="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phoneSignEt"
+            app:layout_constraintVertical_bias="0.054" />
+
+        <RadioButton
+            android:id="@+id/radioButton_owner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="I am Pharm"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radioButton_user"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </RadioGroup>
+
 
     <Button
         android:id="@+id/signup_btn"
@@ -115,7 +128,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioButton_owner"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group"
         app:layout_constraintVertical_bias="0.038" />
 
     <TextView
